@@ -1,0 +1,107 @@
+Reset default styles 
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:#7688e4;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    background-color: #02023a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+nav {
+   width: 86%;
+   display: flex;
+   margin: auto;
+   padding: 15px 0;
+   align-items: center;
+   justify-content: space-between;
+}
+nav.logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+nav ul {
+    margin-top: 0%;
+}
+
+nav ul li {
+    display: flex;
+    list-style:georgian;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: hsl(0, 0%, 2%);
+    margin-top: 3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color:rgb(245, 246, 246);
+}
+
+.profile_img{
+    width: 198px;
+    border-radius: 50%;
+    border: 2px solid #030303;
+    display: flex;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.work-sample {
+    text-align: center;
+    margin: 20px;
+    transition: translate(-55%);
+}
+image:hover .profile_img{
+    left: 55%;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin: 1rem 0;
+}
+ul.social-icons li{
+    color: #000;
+}
+/* Customize the size and color of Font Awesome icons */
+i.fab {
+    font-size: 24px; /* Adjust the size as needed */
+    color: #0077B5; /* LinkedIn blue */
+}
+
+i.fab.fa-github {
+    color: #333; /* Custom color for GitHub icon */
+}
+/*background-color: #070708;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
